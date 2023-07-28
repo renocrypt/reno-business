@@ -47,4 +47,4 @@ the **Media-based industry**. There are online media: Amazon, Alibaba, Shopify, 
 
 > ... These industries ultimately flow to the so-called ...
 
-**Terminal Consumer Service Industry** (for example, medical facilities and drugs eventually reach hospitals, and chips eventually reach consumer electronics companies) to provide services. At the same time, there is a large industry called **enterprise services** that serves upstream companies.
+**Terminal Consumer Service Industry** or *consumer industry* (for example, medical facilities and drugs eventually reach hospitals, and chips eventually reach consumer electronics companies) to provide services. At the same time, there is a large industry called **enterprise services** that serves upstream companies.
