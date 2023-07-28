@@ -9,7 +9,7 @@ thumbnail: /industry.jpg
 
 In the grand theater of global economics, industries and enterprises play pivotal roles, each contributing unique performances that collectively shape the narrative of our socio-economic reality.
 
-### Can be Categorized into the Following:
+### Can be Categorized into the Following
 
 **Infrastructure:** Industries that provide the most fundamental socio-economic infrastructure for the country are characterized by their foundational nature.
 
