@@ -39,6 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install postcss
+        run: npm i -g postcss-cli
       - name: Checkout
         uses: actions/checkout@v3
         with:
