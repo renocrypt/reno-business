@@ -34,7 +34,7 @@ favicon = "/favicon.svg"
 
 [params.homepage.social]
 title = "Find me in"
-description = "I work on everything coding and tweet developer memes"
+description = "Seeking thrills or en route to excitement? 💙"
 [[params.homepage.social.icons]]
 website = "linkedin"
 url = "https://linkedin.com/in/benjiph"
