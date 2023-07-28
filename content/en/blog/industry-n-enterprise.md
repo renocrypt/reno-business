@@ -2,7 +2,7 @@
 author: "Benji Peng"
 title: "Unraveling the Threads of Industry and Enterprise"
 description: "An attempt to explore the intricate interplay among diverse industries, from infrastructure to consumer services"
-tags: ["markdown", "css", "html"]
+tags: ["industries", "category", "fundamentals"]
 date: 2023-07-25
 thumbnail: /industry.jpg
 ---
@@ -38,6 +38,8 @@ Some manufacturing chains are long, such as mobile phones, while others are shor
 - **Apple Inc.**: Apple is a classic example of a product-based company. They design and market a variety of tech products, including the iPhone, iPad, and Mac computers. While they maintain strict control over the design and development process, the actual manufacturing is often outsourced to companies like Foxconn.
 
 - **Nike**: Nike is a global brand known for its athletic footwear and apparel. While the company is heavily involved in the design and marketing of its products, the manufacturing process is typically outsourced to factories around the world.
+
+![img-gear](https://raw.githubusercontent.com/benjipeng/assets/main/rc/blog/industries/gear.jpg)
 
 > ... The products of various companies need to be sold downstream, and sales require a medium. Thus, media-based companies have emerged, resulting in a super-large industry --
 
