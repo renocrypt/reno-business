@@ -1,0 +1,57 @@
+baseURL = 'https://futur.renocrypt.com'
+languageCode = 'en-us'
+title = 'FuturCipher'
+theme = 'blist'
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+[languages]
+[languages.en]
+contentDir = "content/en" #English
+weight = 1
+languageName = "English"
+[languages.en.params]
+introTitle = "FuturCipher: Insight Into What's Next"
+introSubtitle = "Translating Complex Patterns into Understandable Narratives. Deciphering the Delicate Dance of Business and Finance"
+introPhoto = "/picture.jpg"
+logo = "/futur-logo.png"
+
+[[languages.en.menu.main]]
+name = "Blog"
+url = "blog"
+weight = 1
+
+
+[params]
+# Enable the darkmode toggle in header
+darkModeToggle = true
+# Enable search in header
+enableSearch = true
+# Custom copyright - optional
+copyright = "Copyright © 2023 - Benji P. · FuturCipher · RenoCrypt · All rights reserved"
+favicon = "/favicon.svg"
+
+
+[params.homepage.social]
+title = "Find me in"
+description = "I work on everything coding and tweet developer memes"
+[[params.homepage.social.icons]]
+website = "linkedin"
+url = "https://linkedin.com/in/benjiph"
+
+[[params.homepage.social.icons]]
+website = "github"
+url = "https://github.com/benjipeng"
+
+[[menu.main]]
+name = "About"
+url = "https://www.appcubic.com"
+
+
+# syntax highlight settings
+[markup]
+[markup.highlight]
+style = "dracula"
+[markup.goldmark.renderer]
+# Enable to include inline HTML
+unsafe = true
