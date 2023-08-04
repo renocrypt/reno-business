@@ -18,27 +18,84 @@ A *typical* Transformer model contains:
 
 3. **Encoder**: The encoder takes the embedded input data and processes it using self-attention and feed-forward neural networks. The Transformer model typically has multiple layers of these encoders.
 
-    - Self-Attention: This mechanism allows the model to weigh the importance of words in the input sequence. For each word, it determines a score indicating how much attention should be paid to each other word when predicting the next word.
+    - `Self-Attention`: This mechanism utilizes `Scaled Dot-Product Attention`, which `allows the model to weigh the importance of words in the input sequence. For each word, it determines a score indicating how much attention should be paid to each other word when predicting the next word. $\quad\mathrm{Attention}(Q,K,V)$=$\textrm{softmax}\(\frac{QK^T}{\sqrt{d_k}}\)V$
 
-    - Feed-Forward Neural Networks: These are standard fully connected neural networks that follow the self-attention mechanism in each encoder layer.
+    - `Feed-Forward Neural Networks`: These are standard fully connected neural networks that follow the self-attention mechanism in each encoder layer.
 
-4. **Decoder**: The decoder also consists of layers of self-attention and feed-forward neural networks, but with an additional layer of cross-attention that pays attention to the output of the encoder. The decoder generates the output sequence.
+1. **Decoder**: The decoder also consists of layers of self-attention and feed-forward neural networks, but with an additional layer of cross-attention that pays attention to the output of the encoder. The decoder generates the output sequence.
 
-5. **Output Linear Layer and Softmax**: The output from the decoder is passed through a linear layer followed by a softmax function to generate the final output probabilities for each possible next word in the sequence.
+2. **Output Linear Layer and Softmax**: The output from the decoder is passed through a linear layer followed by a softmax function to generate the final output probabilities for each possible next word in the sequence.
 
 ## Mathematical Representation
 
 ### Self-attention Mechanism
 
-> The `self-attention mechanism` in the Transformer model calculates the **attention score** for *each* word in the `input sequence` with respect to `every other word`. This is done using the `Query`($Q$), `Key` ($K$), and `Value` ($V$) vectors that are learned during training.
+> Calculate `Query`, `Key`, and `Value` **vectors**: For each word in the input sequence, we calculate the Query, Key, and Value vectors. These are obtained by multiplying the embedding of the word by the learned weight matrices ($W_Q$, $W_K$, $W_V$).
 
-1. Calculate `Query`, `Key`, and `Value` **vectors**: For each word in the input sequence, we calculate the Query, Key, and Value vectors. These are obtained by multiplying the embedding of the word by the learned weight matrices ($W_Q$, $W_K$, $W_V$).
+> The `self-attention mechanism` in the Transformer model calculates the **attention score** for *each* word in the `input sequence` with respect to `every other word`. This is done using the `Query`($Q$, $Q \in \Reals^{m \times d_k}$), `Key` ($K$, $K \in \Reals^{n \times d_k}$), and `Value` ($V$, $V \in \Reals^{n \times d_v}$) vectors that are learned during training.
 
-2. Calculate attention scores: The attention score matrix ($S$) is calculated as the **cross product** of the **Query matrix** and the ***transpose*** of the **Key matrix**. This results in a matrix of shape `(n, n)`, where each element $S_{ij}$ represents the raw attention score between word i and word j. This is then divided by the square root of the dimension of the key vectors (d_k) to give more importance to the lower values and to stabilize the gradients.
+Dive in, we have the following:
+
+$$
+Q = \begin{pmatrix}
+   − & \vec{q}_0 & − \\\
+   − & \vec{q}_1 & − \\\
+   & \vdots & \\\
+   − & \vec{q}_m & −
+\end{pmatrix}; K^T = \begin{pmatrix}
+| & | & & | \\\
+\vec{k}_0 & \vec{k}_1 & \dots & \vec{k}_n \\\
+| & | & & |
+\end{pmatrix}
+$$
+
+$$
+Q \times K^{T} = \begin{pmatrix}
+\vec{q}_0 \cdot \vec{k}_0 & \vec{q}_0 \cdot \vec{k}_1 & \dots & \vec{q}_0 \cdot \vec{k}_n \\\
+\vec{q}_1 \cdot \vec{k}_0 & \vec{q}_1 \cdot \vec{k}_1 & \dots & \vec{q}_1 \cdot \vec{k}_n \\\
+\vdots & \vdots & \ddots & \vdots\\\
+\vec{q}_m \cdot \vec{k}_0 & \vec{q}_m \cdot \vec{k}_1 & \dots & \vec{q}_m \cdot \vec{k}_n 
+\end{pmatrix}
+$$
+
+After this, the equation $\textnormal{softmax}(\frac{Q \times K^{T}}{\sqrt{d_k}})$ is `equal` to (dividing *each* element by $\sqrt{d_k}$ and perform $\textnormal{softmax}$ function ***PER ROW***).
+
+$$\textnormal{softmax}(\frac{Q \times K^{T}}{\sqrt{d_k}})=
+\begin{pmatrix}
+  \textnormal{softmax}(\frac{1}{\sqrt{d_k}}\lang \vec{q}_0 \cdot \vec{k}_0, \vec{q}_0 \cdot \vec{k}_1, \dots ,\vec{q}_0 \cdot \vec{k}_n \rang) \\\
+  \textnormal{softmax}(\frac{1}{\sqrt{d_k}}\lang \vec{q}_1 \cdot \vec{k}_0, \vec{q}_1 \cdot \vec{k}_1, \dots ,\vec{q}_1 \cdot \vec{k}_n \rang) \\\
+  \vdots \\\
+  \textnormal{softmax}(\frac{1}{\sqrt{d_k}}\lang \vec{q}_m \cdot \vec{k}_0, \vec{q}_m \cdot \vec{k}_1, \dots ,\vec{q}_m \cdot \vec{k}_n \rang)
+\end{pmatrix}$$
+
+$$
+=\begin{pmatrix}
+  s_{0,0} & s_{0,1} & \dots & s_{0,n} \\\
+  s_{1,0} & s_{1,1} & \dots & s_{1,n} \\\
+  \vdots & \vdots & \ddots & \vdots\\\
+  s_{m,0} & s_{m,1} & \dots & s_{m,n}
+\end{pmatrix} = S
+$$
+
+For each row $i$, there is $\displaystyle\sum_{j=1}^n s_{i,j}= 1$.
+
+Then $\textnormal{softmax}(\frac{Q \times K^{T}}{\sqrt{d_k}})V$=
+$S\begin{pmatrix}
+    \vec{v}_0 \\\
+    \vec{v}_1 \\\
+   \vdots\\\
+    \vec{v}_n
+\end{pmatrix} = {\lang \sum_1^n s \tiny({0,i}) \normalsize\vec{v}_i, \dots , \sum_1^n s \tiny({m,i}) \normalsize\vec{v}_i \rang}^T$
+
+**NotePad**: **The default orientation of vectors is column vectors in *Computer Science***. Now let's dive in, $S$ should be a $(m \times n)$ matrix, $V$, therefore *MUST* be $(n *n)$, therefore, $\vec{v}*0$ can be represented as $\lang v_{0,0}, v_{0,1}, v_{0,2}, \dots ,v_{0,n} \rang$. Keep in mind that the $AV$ operation is ***NOT*** cross-product, it's indeed ***dot product*** (we use $A$ to denote the Query-Key).
+
+The first step for `attention` is to do a matrix multiply between the Query (Q) matrix and a transpose of the Key (K) matrix (going through each word). *i.e.* Each column in the fourth row of $A$ corresponds to a dot product between the fourth word in `Query` with every word in `Key`.
+
+1. Calculate attention scores: The attention score matrix ($S$) is calculated as the **cross product** of the **Query matrix** and the ***transpose*** of the **Key matrix**. This results in a matrix of shape `(n, n)`, where each element $S_{ij}$ represents the raw attention score between word i and word j. This is then divided by the square root of the dimension of the key vectors (d_k) to give more importance to the lower values and to stabilize the gradients.
 
 TO BE CONTINUED
 
-$\int_{a}^{b} x^2 dx$
+$\quad\mathrm{Attention}(Q,K,V)$=$\textrm{softmax}\(\cfrac{QK^T}{\sqrt{d_k}}\)$
 
 ## Appendix
 
