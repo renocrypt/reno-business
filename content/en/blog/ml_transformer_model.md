@@ -1,11 +1,12 @@
 ---
 author: "Benji Peng"
-title: "Transformer Model"
+title: "A Gentle Intro to Transformers"
 description: "An attempt to explore the intricate interplay among diverse industries, from infrastructure to consumer services"
 tags: ["branding", "profile", "fundamentals"]
 date: 2023-08-02
 thumbnail: https://raw.githubusercontent.com/benjipeng/assets/main/rc/blog/ml/llm/transformer.jpg
 math: true
+toc: true
 ---
 
 > Transformers are a type of model architecture used in machine learning, particularly in the field of natural language processing (NLP). They were introduced in a paper titled **'Attention is All You Need'** by `Vaswani et al.` in **2017**. The main innovation of the Transformer model is the self-attention mechanism, which allows the model to weigh the importance of words in an input sequence when making predictions.
@@ -22,9 +23,9 @@ A *typical* Transformer model contains:
 
     - `Feed-Forward Neural Networks`: These are standard fully connected neural networks that follow the self-attention mechanism in each encoder layer.
 
-1. **Decoder**: The decoder also consists of layers of self-attention and feed-forward neural networks, but with an additional layer of cross-attention that pays attention to the output of the encoder. The decoder generates the output sequence.
+4. **Decoder**: The decoder also consists of layers of self-attention and feed-forward neural networks, but with an additional layer of cross-attention that pays attention to the output of the encoder. The decoder generates the output sequence.
 
-2. **Output Linear Layer and Softmax**: The output from the decoder is passed through a linear layer followed by a softmax function to generate the final output probabilities for each possible next word in the sequence.
+5. **Output Linear Layer and Softmax**: The output from the decoder is passed through a linear layer followed by a softmax function to generate the final output probabilities for each possible next word in the sequence.
 
 ## Mathematical Representation
 
@@ -85,17 +86,32 @@ $S\begin{pmatrix}
     \vec{v}_1 \\\
    \vdots\\\
     \vec{v}_n
-\end{pmatrix} = {\lang \sum_1^n s \tiny({0,i}) \normalsize\vec{v}_i, \dots , \sum_1^n s \tiny({m,i}) \normalsize\vec{v}_i \rang}^T$
+\end{pmatrix} = $
+
+$\begin{pmatrix}
+  \sum^n_ {i=0} s_{0,i} \vec{v}_ i  \\\
+  \sum^n_ {i=0} s_{1,i} \vec{v}_ i  \\\
+  \vdots \\\
+  \sum^n_{i=0} s_{m,i} \vec{v}_ i
+\end{pmatrix}=Z$
+
+This produces the `Attention Score Vector` ($Z$).
+
+#### Additional Notes
 
 **NotePad**: **The default orientation of vectors is column vectors in *Computer Science***. Now let's dive in, $S$ should be a $(m \times n)$ matrix, $V$, therefore *MUST* be $(n *n)$, therefore, $\vec{v}*0$ can be represented as $\lang v_{0,0}, v_{0,1}, v_{0,2}, \dots ,v_{0,n} \rang$. Keep in mind that the $AV$ operation is ***NOT*** cross-product, it's indeed ***dot product*** (we use $A$ to denote the Query-Key).
 
 The first step for `attention` is to do a matrix multiply between the Query (Q) matrix and a transpose of the Key (K) matrix (going through each word). *i.e.* Each column in the fourth row of $A$ corresponds to a dot product between the fourth word in `Query` with every word in `Key`.
 
-1. Calculate attention scores: The attention score matrix ($S$) is calculated as the **cross product** of the **Query matrix** and the ***transpose*** of the **Key matrix**. This results in a matrix of shape `(n, n)`, where each element $S_{ij}$ represents the raw attention score between word i and word j. This is then divided by the square root of the dimension of the key vectors (d_k) to give more importance to the lower values and to stabilize the gradients.
+The second step is an operation between this intermediate ‘factor’ matrix and the Value (V) matrix, to produce the attention score that is output by the attention module.
 
-TO BE CONTINUED
+For each *individual* row $i$, in the `Attention Score Matrix` ($S$), we have an expression $\textnormal{softmax}(\frac{1}{\sqrt{d_k}} \lang \vec{q}_i\cdot\vec{k}_0, \vec{q}_i \cdot \vec{k}_1, \dots, \vec{q}_i \vec{k}_n \rang)$ = $\frac{1}{N} ( e^{\frac{\vec{q}_i \cdot \vec{k}_0}{\sqrt{d_k}}}, e^{\frac{\vec{q}_i \cdot \vec{k}_1}{\sqrt{d_k}}}, \dots , e^{\frac{\vec{q}*i \cdot \vec{k}*n}{\sqrt{d_k}}})$. $N$ is the `"normalization constant"`,
 
-$\quad\mathrm{Attention}(Q,K,V)$=$\textrm{softmax}\(\cfrac{QK^T}{\sqrt{d_k}}\)$
+$$N = \displaystyle\sum_{j=0}^n e^{\frac{\vec{q}_i\vec{k}_j}{\sqrt{d}_k}}$$
+
+### The Feed-forward Neural Network
+
+
 
 ## Appendix
 
