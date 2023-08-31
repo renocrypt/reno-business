@@ -1,6 +1,6 @@
 baseURL = 'https://futur.renocrypt.com'
 languageCode = 'en-us'
-title = 'FuturCipher'
+title = 'FuturCipher by renocrypt'
 theme = 'blist'
 
 DefaultContentLanguage = "en"
@@ -11,7 +11,7 @@ contentDir = "content/en" #English
 weight = 1
 languageName = "English"
 [languages.en.params]
-introTitle = "FuturCipher: Insight Into What's Next"
+introTitle = "FuturCipher: Insight Into What's Next by RenoCrypt"
 introSubtitle = "Translating Complex Patterns into Understandable Narratives. Deciphering the Delicate Dance of Business and Finance"
 introPhoto = "/picture.jpg"
 logo = "/futur-logo.png"
@@ -55,3 +55,5 @@ style = "dracula"
 [markup.goldmark.renderer]
 # Enable to include inline HTML
 unsafe = true
+
+googleAnalytics = 'G-PGM8E71KE2'
