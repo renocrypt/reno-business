@@ -72,4 +72,41 @@ The Calvin Cycle is a crucial part of photosynthesis and can be divided into thr
 
 **CAM** _(Crassulacean Acid Metabolism)_ plants have adapted to _extremely arid conditions_ by fixing carbon dioxide at night _when the stomata (leaf pores) can be open with less water loss_. During the night, CAM plants fix CO2 into organic acids (like malate) and store them in vacuoles (vacuoles are membrane-bound sacs within the cytoplasm of a cell). During the day, the stomata _close_ to conserve water, and the stored CO2 is released from the organic acids for use in the Calvin cycle (the same cycle used by C3 and C4 plants). This **_temporal_** separation of CO2 uptake and fixation allows CAM plants to photosynthesize during the day with minimal water loss.
 
-![compare](compare.jpg)
+### Phosphoenolpyruvate carboxylase (`PEPC`)
+
+> PEPC (a.k.a PEP carboxylase, PEPCase) is a highly conserved enzyme among C4 and CAM plants, and it operates as a `homotetramer`, meaning it consists of `four` identical subunits. Each subunit has a molecular weight ranging approximately from 100 to 110 kDa. The enzyme has a bi-lobed structure, with each lobe contributing to a large cleft that forms the active site. The structure of PEPC is designed to allow the substrate, phosphoenolpyruvate (PEP), and the bicarbonate ion to be precisely positioned for the catalytic reaction to occur.
+
+![pepc-homotetramer](pepc-homotetramer.jpg)
+
+PEPC is **_NOT_** a simple enzyme but a complex one that requires various factors for its activation:
+
+- **Magnesium Ions (Mg²⁺)**: Essential for enzymatic activity, Mg²⁺ binds to the enzyme along with bicarbonate, facilitating the conversion of PEP to oxaloacetate.
+- **Malate and Aspartate**: These organic acids are feedback inhibitors of PEPC. High concentrations of these acids (which are products of the reaction that PEPC catalyzes in C4 photosynthesis) inhibit the enzyme, thus regulating the rate of carbon fixation and preventing the over-accumulation of oxaloacetate.
+- **Phosphorylation**: PEPC activity is also regulated through phosphorylation by a specific kinase (PEPC kinase), which increases its affinity for PEP and reduces sensitivity to malate. This post-translational modification is crucial for the light-dependent regulation of PEPC activity in C4 and CAM plants.
+
+### Stoichiometry
+
+**C3 Pathway Stoichiometry**
+
+- **Carbon Fixation**: For each CO₂ molecule fixed, one molecule of 3-phosphoglycerate (3-PGA) is formed.
+- **Overall Reaction**: $$3 \text{CO}_2 + 9 \text{ATP} + 6 \text{NADPH} \rightarrow \text{G3P} + 9 \text{ADP} + 8 \text{P}_i + 6 \text{NADP}^+ + 3 \text{H}_2\text{O}
+$$
+- **Net Gain**: For every three molecules of CO₂ fixed, one molecule of glyceraldehyde-3-phosphate (G3P) is produced, which can exit the cycle to contribute to glucose synthesis. Six molecules of G3P are required to form one glucose molecule, thus requiring six turns of the cycle.
+
+**C4 Pathway Stoichiometry**
+
+- **Initial Carbon Fixation**: For every CO₂ molecule fixed into oxaloacetate (and then malate or aspartate), one molecule of phosphoenolpyruvate (PEP) is used.
+- **C4 to C3 Transfer**: Each molecule of CO₂ released from malate in the bundle sheath cells is then refixed by the C3 pathway.
+  $$
+  5 \text{CO}_2 + 2 \text{ATP} \rightarrow 3 \text{RuBP} + 2 \text{ADP} + 2 \text{P}_i + 3 \text{H}_2\text{O}
+  $$
+
+**Note**: This reflects the additional ATP cost in the C4 cycle for pumping CO₂ into the bundle sheath cells, where it is then fixed by the C3 cycle.
+
+**CAM Pathway Stoichiometry**
+
+- **Nighttime CO₂ Fixation**: For each CO₂ molecule fixed, one molecule of malate (stored in vacuoles) is formed. This process uses PEP similar to the C4 pathway.
+- **Daytime Decarboxylation and Refixation**：$$\text{Malate} \rightarrow \text{CO}_2 + \text{Pyruvate}; \quad \text{CO}_2 \text{ is then refixed via the C3 pathway.}
+$$
+
+**Energy Cost**: Similar to the C4 pathway, there is an additional energy cost associated with the nocturnal fixation and storage of CO₂.
