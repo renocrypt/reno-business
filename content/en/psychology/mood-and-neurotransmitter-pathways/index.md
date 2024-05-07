@@ -90,6 +90,8 @@ Serotonin: Often linked to feelings of well-being and happiness. Low levels of s
 
 Neurotransmitters are chemical messengers that transmit signals across a chemical synapse from one neuron (nerve cell) to another 'target' neuron, muscle cell, or gland cell. They are crucial in shaping everyday life and functions. Here’s an organized look into various types of neurotransmitters and their roles:
 
+![transmitters](transmitters.jpg)
+
 1. **Amino Acids**
 
 These neurotransmitters are derived from amino acids and play pivotal roles in the central nervous system.
@@ -158,6 +160,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 
 ### 1. **Serotonin**
 
+![Serotonin](Serotonin.jpg)
+
 - **Disorders Associated:**
   - **Depression:** Often associated with low levels of serotonin.
   - **Anxiety Disorders:** Serotonin imbalance is also implicated in anxiety, phobias, and obsessive-compulsive disorder (OCD).
@@ -169,6 +173,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 - **Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)**: such as Venlafaxine and Duloxetine. These treat depression, anxiety, and neuropathic pain.
 
 ### 2. **Dopamine**
+
+![Dopamine](Dopamine.jpg)
 
 - **Disorders Associated:**
   - **Schizophrenia:** High levels of dopamine activity in certain brain regions are believed to contribute to psychosis.
@@ -183,6 +189,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 
 ### 3. **Norepinephrine (Noradrenaline)**
 
+![Norepinephrine](Norepinephrine.jpg)
+
 - **Disorders Associated:**
   - **Depression:** Lowered levels of norepinephrine have been linked to depression.
   - **Anxiety Disorders:** High levels can contribute to anxiety states, including panic disorder.
@@ -193,6 +201,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 - **Beta-Blockers**: such as Propranolol, indirectly affect norepinephrine to help with symptoms of anxiety and hypertension.
 
 ### 4. **Gamma-Aminobutyric Acid (GABA)**
+
+![GABA](GABA.jpg)
 
 - **Disorders Associated:**
   - **Anxiety Disorders:** Low levels of GABA are associated with increased anxiety.
@@ -205,6 +215,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 
 ### 5. **Glutamate**
 
+![Glutamate](Glutamate.jpg)
+
 - **Disorders Associated:**
   - **Schizophrenia:** Thought to be involved due to its role in synaptic plasticity and neuron excitability.
   - **Mood Disorders:** Imbalances in glutamate have been observed in bipolar disorder and depression.
@@ -216,6 +228,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 
 ### 6. **Acetylcholine**
 
+![Acetylcholine](Acetylcholine.jpg)
+
 - **Disorders Associated:**
   - **Alzheimer’s Disease:** Characterized by a significant drop in acetylcholine levels, which affects cognitive functions.
   - **Dementia:** Besides Alzheimer's, other forms of dementia also involve acetylcholine deficits.
@@ -226,6 +240,8 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
 - **Anticholinergics**: such as Atropine, used to reduce acetylcholine activity in various treatments.
 
 ### 7. **Histamine**
+
+![Histamine](Histamine.jpg)
 
 - **Disorders Associated:**
   - **Schizophrenia:** Histamine pathways might influence arousal and cognitive functions in schizophrenia.
