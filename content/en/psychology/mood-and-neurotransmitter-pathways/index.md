@@ -1,9 +1,9 @@
 ---
 author: "Benji Peng, Ph.D"
-title: "Neural Tides: Understanding the Complex Pathways of Mood Regulation in the Human Brain"
+title: "Your Neural Tides: Understanding the Complex Pathways of Mood Regulation in the Human Brain"
 description: ""
 tags: ["psychology", "pathways", "neurotransmitter"]
-date: 2024-05-07
+date: 2024-05-06
 thumbnail: "featured.jpg"
 math: true
 toc: true
