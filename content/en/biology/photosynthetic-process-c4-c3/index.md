@@ -15,11 +15,19 @@ RuBisCO, which stands for `Ribulose-1,5-bisphosphate carboxylase/oxygenase`, is 
 
 ![RuBisCO-structure](protein-structure.jpg)
 
-RuBisCO, the enzyme essential for **photosynthesis** in organisms, comprises an L8S8 structure with eight large subunits (L) and eight small subunits (S). Each large subunit weighs between 51 and 58 kDa, while each small subunit ranges from 12 to 18 kDa (see Figure 1). The large subunits are synthesized within the chloroplast stroma and are encoded by the chloroplast genome. In contrast, the small subunits are encoded by the nuclear genome of photosynthetic cells. After their synthesis, these small subunits are transported into the chloroplast stroma, passing through the chloroplast's outer and inner membranes. The proper folding and assembly of these subunits into the functional RuBisCO enzyme require the assistance of chaperone proteins. Functionally, the large subunits contain the catalytic sites essential for activity, while the small subunits play a crucial regulatory role in the enzyme's operation.
+RuBisCO, the enzyme essential for **photosynthesis** in organisms, comprises an `L8S8` structure with eight _large_ subunits (L) and eight _small_ subunits (S). Each large subunit weighs between 51 and 58 kDa, while each small subunit ranges from 12 to 18 kDa (see Figure 1). The large subunits are synthesized within the `chloroplast stroma` and are encoded by the chloroplast genome. In contrast, the small subunits are encoded by the nuclear genome of photosynthetic cells. After their synthesis, these small subunits are transported into the `chloroplast stroma`, passing through the chloroplast's outer and inner membranes. The proper folding and assembly of these subunits into the functional RuBisCO enzyme require the assistance of chaperone proteins. Functionally, the large subunits contain the catalytic sites essential for activity, while the small subunits play a crucial regulatory role in the enzyme's operation.
 
 ### RuBisCo
 
-RubisCO is a carboxylase (an enzyme that catalyzes the addition of a carboxyl ROOH group to a specified substrate)
+RubisCO is a `carboxylase` _(an enzyme that catalyzes the addition of a carboxyl ROOH group to a specified substrate)_.
+
+> RuBisCO catalyzes the **first** major step of the Calvin cycle in photosynthesis. This step involves the attachment of carbon dioxide to `ribulose-1,5-bisphosphate` (RuBP), a _five-carbon sugar_, to form two molecules of `3-phosphoglycerate`, a _three-carbon compound_. This reaction is crucial for the synthesis of sugars that plants use for energy and growth.
+
+![RuBisCO-structure](rubisco-process.jpg)
+
+**Challenges with RuBisCO**
+
+_Despite its essential role_, RuBisCO is _NOT_ particularly efficient or selective. It can also catalyze the reaction of oxygen with RuBP, leading to a process called `photorespiration`, which is energetically wasteful for the plant. Photorespiration consumes oxygen and releases carbon dioxide, essentially undoing some of the work of photosynthesis. This inefficiency is particularly problematic under conditions of high temperature and low carbon dioxide concentrations.
 
 ### C3 Plants
 
