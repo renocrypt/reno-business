@@ -23,11 +23,23 @@ RubisCO is a `carboxylase` _(an enzyme that catalyzes the addition of a carboxyl
 
 > RuBisCO catalyzes the **first** major step of the Calvin cycle in photosynthesis. This step involves the attachment of carbon dioxide to `ribulose-1,5-bisphosphate` (RuBP), a _five-carbon sugar_, to form two molecules of `3-phosphoglycerate`, a _three-carbon compound_. This reaction is crucial for the synthesis of sugars that plants use for energy and growth.
 
-![RuBisCO-structure](rubisco-process.jpg)
+![RuBisCO](rubisco-process.jpg)
 
 **Challenges with RuBisCO**
 
 _Despite its essential role_, RuBisCO is _NOT_ particularly efficient or selective. It can also catalyze the reaction of oxygen with RuBP, leading to a process called `photorespiration`, which is energetically wasteful for the plant. Photorespiration consumes oxygen and releases carbon dioxide, essentially undoing some of the work of photosynthesis. This inefficiency is particularly problematic under conditions of high temperature and low carbon dioxide concentrations.
+
+## The Calvin Cycle
+
+> The Calvin Cycle, also known as the Calvin-Benson-Bassham (CBB) cycle, is a series of biochemical redox reactions that take place in the `stroma` of `chloroplasts` in photosynthetic organisms. This cycle is the primary pathway for **carbon fixation**, converting atmospheric carbon dioxide into organic molecules like glucose. It is named after Melvin Calvin, who was one of the first to elucidate its steps.
+
+![Calvin](calvin.jpg)
+
+### Overview of the Calvin Cycle
+
+The Calvin Cycle is a crucial part of photosynthesis and can be divided into three main phases: carbon fixation, reduction, and regeneration of the starting molecule, ribulose-1,5-bisphosphate (RuBP). Unlike the light reactions of photosynthesis, which convert solar energy into chemical energy, the Calvin Cycle uses the chemical energy (ATP and NADPH) produced during these reactions to fix carbon and synthesize sugars.
+
+## Types of Plants
 
 ### C3 Plants
 
