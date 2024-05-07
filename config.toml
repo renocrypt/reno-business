@@ -26,6 +26,11 @@ name = "Biology"
 url = "biology"
 weight = 2
 
+[[languages.en.menu.main]]
+name = "Psychology"
+url = "psychology"
+weight = 3
+
 
 [params]
 # Enable the darkmode toggle in header
