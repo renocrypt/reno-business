@@ -41,6 +41,8 @@ The Calvin Cycle is a crucial part of photosynthesis and can be divided into thr
 
 ## Types of Plants
 
+![plants](plants.jpg)
+
 ### C3 Plants
 
 C3 plants are the most common type of photosynthetic plant. In C3 photosynthesis, carbon dioxide is fixed directly into a three-carbon compound, 3-phosphoglycerate, by the enzyme RuBisCO. This process occurs in the chloroplasts of the leaf mesophyll cells. C3 photosynthesis is straightforward but not very efficient under high temperature and low carbon dioxide conditions because RuBisCO also reacts with oxygen, leading to a wasteful process called photorespiration.
