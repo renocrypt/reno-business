@@ -27,9 +27,15 @@ Serotonin: Often linked to feelings of well-being and happiness. Low levels of s
 - Dopamine: Involved in the reward circuit and affects pleasure and motivation. Imbalances can affect mood, leading to conditions such as depression and bipolar disorder.
 - Norepinephrine: Linked to arousal and alertness, changes in its levels are also associated with mood disorders.
 - GABA (Gamma-Aminobutyric Acid): Mainly an inhibitory neurotransmitter that can stabilize mood.
-- Prefrontal Cortex (PFC): This part of the frontal lobes is involved in planning complex cognitive behavior, personality expression, decision making, and moderating social behavior. The PFC works closely with the limbic system in regulating emotional responses and is critical in the cognitive control of behavior, including mood regulation.
+
+**Prefrontal Cortex (PFC)**
+
+This part of the frontal lobes is involved in planning complex cognitive behavior, personality expression, decision making, and moderating social behavior. The PFC works closely with the limbic system in regulating emotional responses and is critical in the cognitive control of behavior, including mood regulation.
 
 **Hypothalamic-Pituitary-Adrenal (HPA) Axis**
 
 This system controls reactions to stress and regulates many body processes, including mood. Dysregulation of the HPA axis has been linked to several mood disorders.
-Neural Circuits: The connections between the PFC, amygdala, hippocampus, and other areas like the striatum and nucleus accumbens are integral in mood and emotional regulation. Disruptions or imbalances in these circuits can lead to mood disorders.
+
+**Neural Circuits**
+
+The connections between the PFC, amygdala, hippocampus, and other areas like the striatum and nucleus accumbens are integral in mood and emotional regulation. Disruptions or imbalances in these circuits can lead to mood disorders.
