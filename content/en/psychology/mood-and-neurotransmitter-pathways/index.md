@@ -28,6 +28,8 @@ Serotonin: Often linked to feelings of well-being and happiness. Low levels of s
 - Norepinephrine: Linked to arousal and alertness, changes in its levels are also associated with mood disorders.
 - GABA (Gamma-Aminobutyric Acid): Mainly an inhibitory neurotransmitter that can stabilize mood.
 
+![Chemical-Structures-of-Neurotransmitters](Chemical-Structures-of-Neurotransmitters.jpg)
+
 **Prefrontal Cortex (PFC)**
 
 This part of the frontal lobes is involved in planning complex cognitive behavior, personality expression, decision making, and moderating social behavior. The PFC works closely with the limbic system in regulating emotional responses and is critical in the cognitive control of behavior, including mood regulation.
