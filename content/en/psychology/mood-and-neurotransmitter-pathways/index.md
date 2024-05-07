@@ -151,3 +151,56 @@ This system controls reactions to stress and regulates many body processes, incl
 **Neural Circuits**
 
 The connections between the PFC, amygdala, hippocampus, and other areas like the striatum and nucleus accumbens are integral in mood and emotional regulation. Disruptions or imbalances in these circuits can lead to mood disorders.
+
+## Neurotransmitters and Psychological Disorders
+
+Neurotransmitters play crucial roles in the brain's function and are directly implicated in various psychological disorders. The DSM-5 outlines several mental health conditions, many of which have been linked to dysregulations or imbalances in specific neurotransmitters.
+
+### 1. **Serotonin**
+
+- **Disorders Associated:**
+  - **Depression:** Often associated with low levels of serotonin.
+  - **Anxiety Disorders:** Serotonin imbalance is also implicated in anxiety, phobias, and obsessive-compulsive disorder (OCD).
+  - **Schizophrenia:** Some theories suggest that serotonin could modulate other neurotransmitter systems that are dysfunctional in schizophrenia.
+
+### 2. **Dopamine**
+
+- **Disorders Associated:**
+  - **Schizophrenia:** High levels of dopamine activity in certain brain regions are believed to contribute to psychosis.
+  - **Parkinson’s Disease:** Marked by low dopamine levels, affecting motor control.
+  - **Attention Deficit Hyperactivity Disorder (ADHD):** Dopamine is involved in focus and attention; dysregulation may underlie ADHD.
+  - **Bipolar Disorder:** Dysregulation of dopamine is noted during manic phases.
+
+### 3. **Norepinephrine (Noradrenaline)**
+
+- **Disorders Associated:**
+  - **Depression:** Lowered levels of norepinephrine have been linked to depression.
+  - **Anxiety Disorders:** High levels can contribute to anxiety states, including panic disorder.
+
+### 4. **Gamma-Aminobutyric Acid (GABA)**
+
+- **Disorders Associated:**
+  - **Anxiety Disorders:** Low levels of GABA are associated with increased anxiety.
+  - **Epilepsy:** GABA dysfunction is a factor in the susceptibility to seizures.
+
+### 5. **Glutamate**
+
+- **Disorders Associated:**
+  - **Schizophrenia:** Thought to be involved due to its role in synaptic plasticity and neuron excitability.
+  - **Mood Disorders:** Imbalances in glutamate have been observed in bipolar disorder and depression.
+
+### 6. **Acetylcholine**
+
+- **Disorders Associated:**
+  - **Alzheimer’s Disease:** Characterized by a significant drop in acetylcholine levels, which affects cognitive functions.
+  - **Dementia:** Besides Alzheimer's, other forms of dementia also involve acetylcholine deficits.
+
+### 7. **Histamine**
+
+- **Disorders Associated:**
+  - **Schizophrenia:** Histamine pathways might influence arousal and cognitive functions in schizophrenia.
+
+### 8. **Opioid Peptides**
+
+- **Disorders Associated:**
+  - **Substance Use Disorders:** Endorphins are involved in the reward pathways that are often hijacked by addictive substances.
