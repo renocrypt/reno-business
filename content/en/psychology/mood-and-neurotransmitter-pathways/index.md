@@ -42,7 +42,7 @@ toc: true
 
 - _Cerebellum_: Helps in maintaining balance, coordinating movement, and fine motor control. It also plays roles in motor learning and cognitive functions.
 - _Pons_: A bridge between various parts of the brain, involved in motor control and sensory analysis. It also plays a role in sleep and dreaming.
-- _Medulla Oblongata_: Controls autonomic functions such as breathing, heart rate, and digestion.
+- _Medulla Oblongata_ /mə-ˈdə-lə / /-ˌä-ˌblȯŋ-ˈgä-tə/: Controls autonomic functions such as breathing, heart rate, and digestion.
 
 4. **Brainstem**
 
@@ -71,26 +71,74 @@ This group of interconnected structures in the brain is crucial for emotion regu
 
 - **Anterior Cingulate Cortex (ACC)**: Located just above the corpus callosum, the ACC is involved in cognitive functions such as decision-making, empathy, impulse control, and emotion. It’s important for assessing the emotional outcome of actions and resolving conflicts between internal goals and external demands.
 
-4. Other Associated Areas
+4. **Other Associated Areas**
 
-- Parahippocampal Gyrus: Surrounding the hippocampus, this region is involved in memory encoding and retrieval. It plays a role in spatial memory and navigation, which can be emotionally relevant in certain contexts.
-- Olfactory Bulb: Involved in the sense of smell, the olfactory bulb has direct connections to the amygdala and hippocampus, linking smells with emotional memories, although it's often less emphasized in discussions about the core limbic structures.
+- **Parahippocampal Gyrus** /'dʒaɪrəs/: Surrounding the hippocampus, this region is involved in memory encoding and retrieval. It plays a role in spatial memory and navigation, which can be emotionally relevant in certain contexts.
+- **Olfactory Bulb**: Involved in the sense of smell, the olfactory bulb has direct connections to the amygdala and hippocampus, linking smells with emotional memories, although it's often less emphasized in discussions about the core limbic structures.
 
 ### Prefrontal Cortex (PFC)
 
 The `PFC` is _crucial_ for _cognitive_ aspects of mood regulation, such as judgment, decision-making, and problem-solving. Different parts of the PFC have specific roles:
 
 - **Orbitofrontal Cortex (OFC)**: Involved in the evaluation of risks and rewards and in controlling impulsive behavior.
-- **Dorsolateral Prefrontal Cortex (DLPFC)**: Associated with the management of emotional responses through connections with the limbic system, playing a key role in mood disorders.
+- **Dorsolateral** /dɔ:səʊ'lætərəl/ **Prefrontal Cortex (DLPFC)**: Associated with the management of emotional responses through connections with the limbic system, playing a key role in mood disorders.
 
 ### Neurotransmitters
 
 These chemical messengers are pivotal in mood regulation. Key neurotransmitters include:
 Serotonin: Often linked to feelings of well-being and happiness. Low levels of serotonin are commonly associated with mood disorders like depression.
 
-- Dopamine: Involved in the reward circuit and affects pleasure and motivation. Imbalances can affect mood, leading to conditions such as depression and bipolar disorder.
-- Norepinephrine: Linked to arousal and alertness, changes in its levels are also associated with mood disorders.
-- GABA (Gamma-Aminobutyric Acid): Mainly an inhibitory neurotransmitter that can stabilize mood.
+Neurotransmitters are chemical messengers that transmit signals across a chemical synapse from one neuron (nerve cell) to another 'target' neuron, muscle cell, or gland cell. They are crucial in shaping everyday life and functions. Here’s an organized look into various types of neurotransmitters and their roles:
+
+1. **Amino Acids**
+
+These neurotransmitters are derived from amino acids and play pivotal roles in the central nervous system.
+
+- **Glutamate**
+  - _Role:_ The primary excitatory neurotransmitter in the central nervous system. It is essential for neural communication, memory formation, and learning.
+- **GABA (Gamma-Aminobutyric Acid)**
+  - _Role:_ The main inhibitory neurotransmitter in the brain. It helps reduce neuronal excitability throughout the nervous system.
+
+2. **Monoamines**
+
+These are neurotransmitters and neuromodulators containing one amino group connected to an aromatic ring by a two-carbon chain.
+
+- **Dopamine**
+  - _Role:_ Involved in reward, motivation, and motor control. Dysregulation is linked to Parkinson's disease and schizophrenia.
+- **Norepinephrine (Noradrenaline)** (_[ˌnɔ:repɪ'nefrɪn]_)
+  - _Role:_ Affects attention and responding actions in the brain. It plays a role in mood disorders and is critical for the fight-or-flight response in the face of danger.
+- **Serotonin**
+  - _Role:_ Modulates mood, emotion, sleep, and appetite. Its imbalance is associated with depression, anxiety, and other mood disorders.
+- **Histamine**
+  - _Role:_ Plays a role in the sleep-wake cycle and alertness, also involved in inflammatory response.
+
+3. **Acetylcholine**
+
+- _Role:_ Involved in muscle activation, memory, and alertness. It is significant in conditions like Alzheimer's disease, where there is a noted deficit of acetylcholine.
+
+4. **Peptides**
+
+These are short chains of amino acid monomers linked by peptide bonds.
+
+- **Substance P**
+  - _Role:_ Mediates pain perception and is involved in the stress response.
+- **Opioid Peptides**
+  - _Group Includes:_ Endorphins(_[enˈdɔ:fɪn]_), enkephalins (_|ɛnˈkɛfəlɪn|_), and dynorphins (_[dɪ'nɔ:rfɪn]_).
+  - _Role:_ Natural painkillers, they play key roles in pain relief, reward, and addiction processes.
+
+5. **Purines**
+
+- **Adenosine** (_[ə'denəsi:n]_)
+  - _Role:_ Generally acts as a neuromodulator in the brain. It is important in promoting sleep and suppressing arousal.
+
+6. **Gases**
+
+These neurotransmitters are unique because they are not stored in synaptic vesicles and are synthesized on demand.
+
+- **Nitric Oxide (NO)**
+  - _Role:_ Involved in smooth muscle relaxation in blood vessels, as well as in neurotransmission and immune responses.
+- **Carbon Monoxide (CO)**
+  - _Role:_ Similar functions to nitric oxide, influencing neurotransmission and vasodilation.
 
 ![Chemical-Structures-of-Neurotransmitters](Chemical-Structures-of-Neurotransmitters.jpg)
 
