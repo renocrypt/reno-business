@@ -24,7 +24,7 @@ $$
 \colorbox{brown}{$\mathbf{\vec{\hat{y}}}$}
 $$
 
-$\vec{\text{y}}$ represents the output from the NN and $\mathbf{\vec{\hat{y}}}$ is the *ground truth*. A more detailed (yet very abstract) relationship between the input and output *via* the NN is given in the *GoAT* plot below.
+$\vec{\text{y}}$ represents the output from the NN and $\mathbf{\vec{\hat{y}}}$ is the _ground truth_. A more detailed (yet very abstract) relationship between the input and output _via_ the NN is given in the _GoAT_ plot below.
 
 ```goat
                                                        +------+
@@ -83,11 +83,11 @@ Here are some notes on
 
 - A `vector` is received as `input`.
 - The `vector` is multiplied with a matrix to produce an `output`.
-- A `bias` vector may be added to the *output*.
+- A `bias` vector may be added to the _output_.
 - Pass the result through an `activation function` such as `sigmoid`.
 - $\small Input = x, \  Output = f(Wx+b)$
 
-***Forward Propagation*** equations are as follows:
+**_Forward Propagation_** equations are as follows:
 
 $$
 \begin{matrix}
@@ -100,17 +100,16 @@ $$
 
 ## Loss Function
 
-***Stochastic gradient descent*** uses a *single* instance to perform weight updates, whereas the ***Batch gradient descent*** uses a *batch* of data ($y$ is the ground truth).
+**_Stochastic gradient descent_** uses a _single_ instance to perform weight updates, whereas the **_Batch gradient descent_** uses a _batch_ of data ($y$ is the ground truth).
 
-- *Stochastic* loss function: $L=1/2{\Vert \hat{y} - y \Vert}^2_2$
-- *Batch* loss function: $L=1/2\sum_ {\isin Batch}{\Vert \hat{y}_i - y_i \Vert}^2_2$
+- _Stochastic_ loss function: $L=1/2{\Vert \hat{y} - y \Vert}^2_2$
+- _Batch_ loss function: $L=1/2\sum_ {\isin Batch}{\Vert \hat{y}_i - y_i \Vert}^2_2$
 
 Given an input $x_0$, $x_3$ can be represented by $x_0$ and $W_1, W_2, W_3$. Matrices $W$s represent tunable parameters in the process.
 
 $$w = w - \alpha_w \frac{\partial L}{\partial w} \ \ \textnormal{\footnotesize{for all weights w}}$$
 
-$\alpha_w$ is called the ***learning rate***, a scalar for this particular weight.
-
+$\alpha_w$ is called the **_learning rate_**, a scalar for this particular weight.
 
 ### Chain Rule
 

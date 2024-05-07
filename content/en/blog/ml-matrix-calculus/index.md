@@ -35,18 +35,18 @@ function of $\mathbf{x}$), or $\mathbf{y} = \mathbf{y(x)}$.
 
 ### Conventions on Notations
 
-The derivative of a vector *w.r.t.* to a vector, i.e. $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$, is often written into two ***competing*** ways. If the `numerator` $\mathbf{x}$ is of size $m$ and the `denominator` $\mathbf{y}$ of size $n$, the result can be laid out as *either* an $m \times n$ or $n \times m$ matrix.
+The derivative of a vector _w.r.t._ to a vector, i.e. $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$, is often written into two **_competing_** ways. If the `numerator` $\mathbf{x}$ is of size $m$ and the `denominator` $\mathbf{y}$ of size $n$, the result can be laid out as _either_ an $m \times n$ or $n \times m$ matrix.
 
-1. *Numerator Layout*: i.e. lay out according to $\textbf{y}$ and $\textbf{x}^T$. It corresponds to the $m \times n$ layout, the row number of $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$ equals to the size of the numerator $\mathbf{y}$, and the column number of $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$ equals to the size of $\mathbf{x}^T$. This is A.K.A *the **Jacobian formulation***.
-2. *Denominator Layout*: i.e. lay out according to $\textbf{y}^T$ and $\textbf{x}$, and yields the transpose from the *Jacobian*. It corresponds to the $n \times m$ layout, A.K.A *the **Hessian formulation***.
+1. _Numerator Layout_: i.e. lay out according to $\textbf{y}$ and $\textbf{x}^T$. It corresponds to the $m \times n$ layout, the row number of $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$ equals to the size of the numerator $\mathbf{y}$, and the column number of $\frac{\partial \vec{\text{y}}}{\partial \vec{\text{x}}}$ equals to the size of $\mathbf{x}^T$. This is A.K.A \*the **Jacobian formulation\***.
+2. _Denominator Layout_: i.e. lay out according to $\textbf{y}^T$ and $\textbf{x}$, and yields the transpose from the _Jacobian_. It corresponds to the $n \times m$ layout, A.K.A \*the **Hessian formulation\***.
 
-Similarly, when it comes to scalar-by-matrix derivatives $\frac{\partial y}{\partial \textbf{X}}$ and matrix-by-scalar derivatives $\frac{\partial \textbf{Y}}{\partial x}$. **Numerator** layout lays out according to $Y$ and $X^T$ and *vice versa* for the **Denominator** layout.
+Similarly, when it comes to scalar-by-matrix derivatives $\frac{\partial y}{\partial \textbf{X}}$ and matrix-by-scalar derivatives $\frac{\partial \textbf{Y}}{\partial x}$. **Numerator** layout lays out according to $Y$ and $X^T$ and _vice versa_ for the **Denominator** layout.
 
 1. For $\frac{\partial y}{\partial \textbf{X}}$, where matrix $\textbf{X}$ has the size $p \times q$.
    - Numerator layout yields a $q \times p$ matrix.
    - Denominator layout yields a $p \times q$ matrix.
 2. For $\frac{\partial \textbf{Y}}{\partial x}$, where matrix $\textbf{Y}$ has the size $m \times n$.
-   - `Numerator` layout is the *ONLY* common way, yields a $m \times n$ matrix.
+   - `Numerator` layout is the _ONLY_ common way, yields a $m \times n$ matrix.
 
 ### Example: Jacobian
 
