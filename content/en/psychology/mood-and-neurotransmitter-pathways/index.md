@@ -163,6 +163,11 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
   - **Anxiety Disorders:** Serotonin imbalance is also implicated in anxiety, phobias, and obsessive-compulsive disorder (OCD).
   - **Schizophrenia:** Some theories suggest that serotonin could modulate other neurotransmitter systems that are dysfunctional in schizophrenia.
 
+**Medications**
+
+- **Selective Serotonin Reuptake Inhibitors (SSRIs)**: such as Fluoxetine, Sertraline, and Citalopram. Used primarily for depression and anxiety disorders.
+- **Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)**: such as Venlafaxine and Duloxetine. These treat depression, anxiety, and neuropathic pain.
+
 ### 2. **Dopamine**
 
 - **Disorders Associated:**
@@ -171,11 +176,21 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
   - **Attention Deficit Hyperactivity Disorder (ADHD):** Dopamine is involved in focus and attention; dysregulation may underlie ADHD.
   - **Bipolar Disorder:** Dysregulation of dopamine is noted during manic phases.
 
+**Medications**
+
+- **Antipsychotics (First and Second Generation)**: Haloperidol, Risperidone, and Aripiprazole. These are used to manage symptoms of schizophrenia and bipolar disorder.
+- **Dopamine Agonists**: such as Pramipexole and Ropinirole, primarily used in Parkinson’s disease and restless legs syndrome (_An agonist is a substance that mimics the actions of a neurotransmitter or hormone to produce a response when it binds to a specific receptor in the brain_).
+
 ### 3. **Norepinephrine (Noradrenaline)**
 
 - **Disorders Associated:**
   - **Depression:** Lowered levels of norepinephrine have been linked to depression.
   - **Anxiety Disorders:** High levels can contribute to anxiety states, including panic disorder.
+
+**Medications**
+
+- **SNRIs**: including Venlafaxine and Duloxetine, which are also effective in treating mood and anxiety disorders.
+- **Beta-Blockers**: such as Propranolol, indirectly affect norepinephrine to help with symptoms of anxiety and hypertension.
 
 ### 4. **Gamma-Aminobutyric Acid (GABA)**
 
@@ -183,11 +198,21 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
   - **Anxiety Disorders:** Low levels of GABA are associated with increased anxiety.
   - **Epilepsy:** GABA dysfunction is a factor in the susceptibility to seizures.
 
+**Medications**
+
+- **Benzodiazepines**: such as Diazepam and Lorazepam, enhance the effect of GABA to induce calm, reduce anxiety, and prevent seizures.
+- **Barbiturates**: such as Phenobarbital, also increase GABAergic activity and are used in the treatment of epilepsy.
+
 ### 5. **Glutamate**
 
 - **Disorders Associated:**
   - **Schizophrenia:** Thought to be involved due to its role in synaptic plasticity and neuron excitability.
   - **Mood Disorders:** Imbalances in glutamate have been observed in bipolar disorder and depression.
+
+**Medications**
+
+- **Memantine**: Used in the treatment of moderate to severe Alzheimer’s disease by modulating glutamatergic activity.
+- **Ketamine**: Used off-label for severe depression, influences glutamate neurotransmission.
 
 ### 6. **Acetylcholine**
 
@@ -195,12 +220,25 @@ Neurotransmitters play crucial roles in the brain's function and are directly im
   - **Alzheimer’s Disease:** Characterized by a significant drop in acetylcholine levels, which affects cognitive functions.
   - **Dementia:** Besides Alzheimer's, other forms of dementia also involve acetylcholine deficits.
 
+**Medications**
+
+- **Cholinesterase Inhibitors**: such as Donepezil and Rivastigmine, used to boost acetylcholine in Alzheimer’s disease.
+- **Anticholinergics**: such as Atropine, used to reduce acetylcholine activity in various treatments.
+
 ### 7. **Histamine**
 
 - **Disorders Associated:**
   - **Schizophrenia:** Histamine pathways might influence arousal and cognitive functions in schizophrenia.
 
+**Medications**
+
+- **Antipsychotics**: Some such as Olanzapine and Clozapine have anti-histaminergic properties and are used in the treatment of schizophrenia and bipolar disorder.
+
 ### 8. **Opioid Peptides**
 
 - **Disorders Associated:**
-  - **Substance Use Disorders:** Endorphins are involved in the reward pathways that are often hijacked by addictive substances.
+  - **Substance Use Disorders**: Endorphins are involved in the reward pathways that are often hijacked by addictive substances.
+
+**Medications**
+
+- **Naloxone and Naltrexone**: Used primarily to treat opioid overdose and dependency. They block the effects of opioid drugs.
