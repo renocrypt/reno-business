@@ -9,15 +9,17 @@ math: true
 toc: true
 ---
 
-> hello
-
 ## Intro
 
 RuBisCO, which stands for `Ribulose-1,5-bisphosphate carboxylase/oxygenase`, is a crucial enzyme in the process of photosynthesis, primarily responsible for the fixation of atmospheric carbon dioxide into organic molecules. It is the most abundant protein on Earth due to its central role in carbon fixation, supporting the vast majority of life by contributing to the global carbon cycle.
 
 ![RuBisCO-structure](protein-structure.jpg)
 
-RuBisCO, the enzyme essential for photosynthesis in organisms, comprises an L8S8 structure with eight large subunits (L) and eight small subunits (S). Each large subunit weighs between 51 and 58 kDa, while each small subunit ranges from 12 to 18 kDa (see Figure 1). The large subunits are synthesized within the chloroplast stroma and are encoded by the chloroplast genome. In contrast, the small subunits are encoded by the nuclear genome of photosynthetic cells. After their synthesis, these small subunits are transported into the chloroplast stroma, passing through the chloroplast's outer and inner membranes. The proper folding and assembly of these subunits into the functional RuBisCO enzyme require the assistance of chaperone proteins. Functionally, the large subunits contain the catalytic sites essential for activity, while the small subunits play a crucial regulatory role in the enzyme's operation.
+RuBisCO, the enzyme essential for **photosynthesis** in organisms, comprises an L8S8 structure with eight large subunits (L) and eight small subunits (S). Each large subunit weighs between 51 and 58 kDa, while each small subunit ranges from 12 to 18 kDa (see Figure 1). The large subunits are synthesized within the chloroplast stroma and are encoded by the chloroplast genome. In contrast, the small subunits are encoded by the nuclear genome of photosynthetic cells. After their synthesis, these small subunits are transported into the chloroplast stroma, passing through the chloroplast's outer and inner membranes. The proper folding and assembly of these subunits into the functional RuBisCO enzyme require the assistance of chaperone proteins. Functionally, the large subunits contain the catalytic sites essential for activity, while the small subunits play a crucial regulatory role in the enzyme's operation.
+
+### RuBisCo
+
+RubisCO is a carboxylase (an enzyme that catalyzes the addition of a carboxyl ROOH group to a specified substrate)
 
 ### C3 Plants
 
