@@ -1,6 +1,5 @@
 ---
 author: Benji Peng
-title: Hello
+title: Futur, Re-Focused on Modernized Concepts in Science and Engineering
 date: 2021-07-15
 ---
-
