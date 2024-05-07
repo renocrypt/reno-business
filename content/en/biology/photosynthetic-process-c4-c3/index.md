@@ -64,16 +64,12 @@ The Calvin Cycle is a crucial part of photosynthesis and can be divided into thr
 
 ![plants](plants.jpg)
 
-### C3 Plants
+### Overview
 
-C3 plants are the most common type of photosynthetic plant. In C3 photosynthesis, carbon dioxide is fixed directly into a three-carbon compound, 3-phosphoglycerate, by the enzyme RuBisCO. This process occurs in the chloroplasts of the leaf mesophyll cells. C3 photosynthesis is straightforward but not very efficient under high temperature and low carbon dioxide conditions because RuBisCO also reacts with oxygen, leading to a wasteful process called photorespiration.
+**C3 plants** are the **_most common_** type of photosynthetic plant. In C3 photosynthesis, carbon dioxide is fixed _directly_ into a _three-carbon compound_, `3-phosphoglycerate`, by the enzyme `RuBisCO`. This process occurs in the chloroplasts of the leaf mesophyll cells. C3 photosynthesis is _not very efficient under high temperature and low carbon dioxide conditions_ because of the carboxylase/oxygenase nature of `RuBisCO` (see the first section).
 
-### C4 Plants
+**C4 plants** have evolved a mechanism to efficiently capture carbon dioxide, even under low concentrations, which is advantageous _in hot and dry environments_. In these plants, carbon dioxide is initially fixed into a four-carbon compound, `oxaloacetate`, which is converted into `malate` or `aspartate`. This initial reaction is catalyzed by the enzyme `phosphoenolpyruvate carboxylase` (PEPC) (_higher_ affinity for CO2 and does _NOT_ react with oxygen). This four-carbon compound is then shuttled to _specialized_ **bundle sheath cells**, where the CO2 is released and re-fixed by `RuBisCO` into the C3 pathway. This **_spatial_** separation of the initial and final carbon fixation steps reduces photorespiration and increases photosynthetic efficiency under high light intensity and temperature.
 
-C4 plants have evolved a mechanism to efficiently capture carbon dioxide, even under low concentrations, which is advantageous in hot and dry environments. In these plants, carbon dioxide is initially fixed into a four-carbon compound, oxaloacetate, which is converted into malate or aspartate. This initial reaction is catalyzed by the enzyme phosphoenolpyruvate carboxylase (PEPC), which has a higher affinity for CO2 and does not react with oxygen. This four-carbon compound is then shuttled to specialized bundle sheath cells, where the CO2 is released and re-fixed by RuBisCO into the C3 pathway. This spatial separation of the initial and final carbon fixation steps reduces photorespiration and increases photosynthetic efficiency under high light intensity and temperature.
-
-### CAM Plants
-
-CAM (Crassulacean Acid Metabolism) plants have adapted to extremely arid conditions by fixing carbon dioxide at night when the stomata (leaf pores) can be open with less water loss. During the night, CAM plants fix CO2 into organic acids (like malate) and store them in vacuoles. During the day, the stomata close to conserve water, and the stored CO2 is released from the organic acids for use in the Calvin cycle (the same cycle used by C3 and C4 plants). This temporal separation of CO2 uptake and fixation allows CAM plants to photosynthesize during the day with minimal water loss.
+**CAM** _(Crassulacean Acid Metabolism)_ plants have adapted to _extremely arid conditions_ by fixing carbon dioxide at night _when the stomata (leaf pores) can be open with less water loss_. During the night, CAM plants fix CO2 into organic acids (like malate) and store them in vacuoles (vacuoles are membrane-bound sacs within the cytoplasm of a cell). During the day, the stomata _close_ to conserve water, and the stored CO2 is released from the organic acids for use in the Calvin cycle (the same cycle used by C3 and C4 plants). This **_temporal_** separation of CO2 uptake and fixation allows CAM plants to photosynthesize during the day with minimal water loss.
 
 ![compare](compare.jpg)
