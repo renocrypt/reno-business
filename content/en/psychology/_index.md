@@ -6,10 +6,10 @@ Although a **_variety of biological tools_** have been used to discover the rela
 
 ## Disclaimer
 
-The content provided in this section, is for **_educational purposes only_**. While I hold a `Ph.D. in Chemistry with a focus on Biophysics`, I am **_NOT_** a licensed medical practitioner. Those articles does **_NOT_** offer medical advice and should not be used as a substitute for advice from a qualified healthcare professional.
+The content provided in this section, is for **_educational purposes only_**. While I hold my `Ph.D. in Chemistry` with a focus on Biophysics from Georgia Institute of Technology, I am **_NOT_** a licensed medical practitioner. Those articles does **_NOT_** offer medical advice and should **_NOT_** be used as a substitute for advice from a qualified healthcare professional.
 
 > If you have ANY health concerns or questions regarding the impact of neurotransmitters on mental health or the use of recreational drugs, please consult your primary care physician or other healthcare professionals.
 
--- Dr. Honeycutt
+**--- 💜💙 Dr. Honeycutt**
 
 ---

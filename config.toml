@@ -38,13 +38,13 @@ darkModeToggle = true
 # Enable search in header
 enableSearch = true
 # Custom copyright - optional
-copyright = "Copyright © 2023 - Benji P. · FuturCipher · RenoCrypt · All rights reserved"
+copyright = "Copyright © 2024 - Benji Peng Honeycutt. · FuturCipher · RenoCrypt · All rights reserved"
 favicon = "/favicon.svg"
 
 
 [params.homepage.social]
 title = "Find me in"
-description = "Seeking thrills or en route to excitement? 💙"
+description = "Seeking thrills or en route to excitement? Find me on the dance floor 💚"
 [[params.homepage.social.icons]]
 website = "linkedin"
 url = "https://linkedin.com/in/benjiph"
@@ -52,6 +52,18 @@ url = "https://linkedin.com/in/benjiph"
 [[params.homepage.social.icons]]
 website = "github"
 url = "https://github.com/benjipeng"
+
+[[params.homepage.social.icons]]
+website = "twitter"
+url = "https://twitter.com/benjipeng"
+
+[[params.homepage.social.icons]]
+website = "instagram"
+url = "https://www.instagram.com/ben_flyer/"
+
+[[params.homepage.social.icons]]
+website = "googlescholar"
+url = "https://benji.renocrypt.com/"
 
 [[menu.main]]
 name = "About"
