@@ -39,6 +39,27 @@ _Despite its essential role_, RuBisCO is _NOT_ particularly efficient or selecti
 
 The Calvin Cycle is a crucial part of photosynthesis and can be divided into three main phases: carbon fixation, reduction, and regeneration of the starting molecule, ribulose-1,5-bisphosphate (RuBP). Unlike the light reactions of photosynthesis, which convert solar energy into chemical energy, the Calvin Cycle uses the chemical energy (ATP and NADPH) produced during these reactions to fix carbon and synthesize sugars.
 
+![Calvin-C](calvin-c.jpg)
+
+### Phases
+
+**Carbon Fixation:**
+
+- Enzyme Involved: Ribulose-1,5-bisphosphate carboxylase/oxygenase (`RuBisCO`).
+- Process: Carbon dioxide (CO₂) from the atmosphere is attached to RuBP, a five-carbon sugar, resulting in a six-carbon compound that immediately splits into two molecules of 3-phosphoglycerate (`3-PGA`), a three-carbon compound.
+
+**Reduction Phase:**
+
+- Energy Used: `ATP` and `NADPH`.
+- Process: Each 3-PGA molecule is phosphorylated by ATP, then reduced by NADPH to form glyceraldehyde 3-phosphate (G3P), a three-carbon sugar. This is the point at which the inorganic carbon (CO₂) is converted into an organic form (G3P) that can eventually be turned into glucose.
+- Outcome: For every three turns of the cycle, five G3Ps are used to regenerate RuBP, and one G3P is output from the cycle, which contributes to forming glucose and other carbohydrates.
+
+**Regeneration of RuBP:**
+
+- Energy Used: ATP.
+- Process: The remaining five G3P molecules undergo a series of transformations involving multiple enzyme-catalyzed reactions that consume ATP. This series of reactions regenerates three molecules of RuBP, allowing the cycle to prepare for the next CO₂ fixation.
+- Outcome: The cycle is now ready to fix more CO₂, continuing the process of sugar production.
+
 ## Types of Plants
 
 ![plants](plants.jpg)
@@ -54,3 +75,5 @@ C4 plants have evolved a mechanism to efficiently capture carbon dioxide, even u
 ### CAM Plants
 
 CAM (Crassulacean Acid Metabolism) plants have adapted to extremely arid conditions by fixing carbon dioxide at night when the stomata (leaf pores) can be open with less water loss. During the night, CAM plants fix CO2 into organic acids (like malate) and store them in vacuoles. During the day, the stomata close to conserve water, and the stored CO2 is released from the organic acids for use in the Calvin cycle (the same cycle used by C3 and C4 plants). This temporal separation of CO2 uptake and fixation allows CAM plants to photosynthesize during the day with minimal water loss.
+
+![compare](compare.jpg)
