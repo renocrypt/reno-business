@@ -3,7 +3,7 @@ author: "Benji Peng, Ph.D"
 title: "Neural Tides: Understanding the Complex Pathways of Mood Regulation in the Human Brain"
 description: ""
 tags: ["psychology", "pathways", "neurotransmitter"]
-date: 2024-05-05
+date: 2024-05-07
 thumbnail: "featured.jpg"
 math: true
 toc: true
@@ -13,11 +13,15 @@ toc: true
 
 > The regulation of mood in the human brain involves a complex `network` of neurological pathways, neurotransmitters, and brain regions. Here's a brief overview of some key elements in these pathways:
 
-**Limbic System**
+### Limbic System
 
-This group of interconnected structures in the brain is crucial for emotion regulation. Major components include the amygdala, hippocampus, and parts of the thalamus. The amygdala, for example, plays a role in emotional responses and mood disorders, while the hippocampus is involved in forming new memories and how we perceive our environments emotionally.
+This group of interconnected structures in the brain is crucial for emotion regulation. Major components include the amygdala, hippocampus, and parts of the thalamus.
 
 ![limbic](limbic.jpg)
+
+- **Hippocampus**: Important for memory formation, the hippocampus also helps regulate emotional responses. Its activity is linked to the contextual evaluation of emotional stimuli.
+- **Amygdala**: This almond-shaped structure processes emotions such as fear and pleasure. It assigns emotional significance to events and memories and is heavily involved in the physiological response to emotional stimuli.
+- **Hypothalamus**: Regulates the autonomic nervous system and the endocrine system, influencing stress responses and emotional regulation through hormonal secretion.
 
 **Neurotransmitters**
 
