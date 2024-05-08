@@ -4,7 +4,7 @@ title = 'FuturCipher by renocrypt'
 theme = 'blist'
 
 DefaultContentLanguage = "en"
-DefaultContentLanguageInSubdir = true
+DefaultContentLanguageInSubdir = false
 [languages]
 [languages.en]
 contentDir = "content/en" #English
