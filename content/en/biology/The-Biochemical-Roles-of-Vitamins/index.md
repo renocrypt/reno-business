@@ -13,9 +13,12 @@ toc: true
 
 ## **Vitamins Overview**
 
-  Vitamins are categorized into two types based on their solubility: fat-soluble vitamins (A, D, E, K) and water-soluble vitamins (C and all B vitamins). Each vitamin has unique molecular structures and functions.
+Vitamins are categorized into two types based on their solubility: fat-soluble vitamins (A, D, E, K) and water-soluble vitamins (C and all B vitamins). Each vitamin has unique molecular structures and functions.
+
+![vitamin-cloud](vitamin-cloud.jpg)
 
 - **Fat-Soluble Vitamins**
+
   - **Vitamin A (Retinol)**
     - **Molecular Role**: Vitamin A is crucial for vision as it is a component of rhodopsin, a protein in the eye that absorbs light in the retinal receptors. It also plays a vital role in gene transcription, immune function, and skin health.
     - **Sources**: Found in liver, carrots, and fortified foods.
