@@ -2,14 +2,16 @@ baseURL = 'https://futur.renocrypt.com'
 languageCode = 'en-us'
 title = 'FuturCipher by renocrypt'
 theme = 'blist'
-
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = false
+
 [languages]
+
 [languages.en]
 contentDir = "content/en" #English
 weight = 1
 languageName = "English"
+
 [languages.en.params]
 introTitle = "FuturCipher: Insight Into What's Next by RenoCrypt"
 introSubtitle = "Translating Complex Patterns into Understandable Narratives. Deciphering the Delicate Dance of Business and Finance"
@@ -31,20 +33,29 @@ name = "Psychology"
 url = "psychology"
 weight = 3
 
-
 [params]
+ascentColor = 'bg-blue-200 dark:bg-green-900'
 # Enable the darkmode toggle in header
 darkModeToggle = true
 # Enable search in header
 enableSearch = true
+searchKeys = [
+    "tags",
+    "date",
+    "categories",
+    "summary",
+    "content",
+    "link",
+    "author",
+]
 # Custom copyright - optional
 copyright = "Copyright © 2024 - Benji Peng Honeycutt. · FuturCipher · RenoCrypt · All rights reserved"
 favicon = "/favicon.svg"
 
-
 [params.homepage.social]
 title = "Find me in"
 description = "Seeking thrills or en route to excitement? Find me on the dance floor 💚"
+
 [[params.homepage.social.icons]]
 website = "linkedin"
 url = "https://linkedin.com/in/benjiph"
@@ -65,17 +76,21 @@ url = "https://www.instagram.com/ben_flyer/"
 website = "googlescholar"
 url = "https://benji.renocrypt.com/"
 
+
 [[menu.main]]
 name = "About"
 url = "https://www.appcubic.com"
 
-
 # syntax highlight settings
 [markup]
+
 [markup.highlight]
 style = "dracula"
+
 [markup.goldmark.renderer]
 # Enable to include inline HTML
 unsafe = true
-
 googleAnalytics = 'G-PGM8E71KE2'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

@@ -69,3 +69,15 @@ Neurotransmitters are crucial chemical messengers in the brain that regulate a m
   - **Heroin and Other Opiates:** Mimic the effects of endorphins by binding to opioid receptors, producing euphoria and pain relief.
 
 ![featured](featured2.jpg)
+
+## Serotonin
+
+> Serotonin, also known as 5-hydroxytryptamine (5-HT), is a monoamine neurotransmitter derived from the amino acid tryptophan. Its structure features an indole ring, a common motif in many natural and synthetic compounds, linked to an ethylamine chain. This structure is crucial for serotonin's ability to bind to and activate its receptors.
+
+![The-biochemical-pathway-of-serotonin-synthesis-and-metabolism-L-Tryptopha](The-biochemical-pathway-of-serotonin-synthesis-and-metabolism-L-Tryptophan-the.png)
+[img source](https://doi.org/10.3390/cancers13184532 )
+
+### Serotonin & Other Naturally Occurring Compounds:
+
+- **Vitamins**: Vitamin B6 (pyridoxine) is a cofactor for the decarboxylase enzyme that converts 5-HTP to serotonin. Thus, adequate levels of vitamin B6 are essential for optimal serotonin production.
+- **Amino Acids**: Tryptophan is the precursor to serotonin. Dietary intake of tryptophan-rich foods like turkey, eggs, and cheese can influence serotonin levels.
