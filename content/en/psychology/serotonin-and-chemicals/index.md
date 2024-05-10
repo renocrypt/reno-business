@@ -1,7 +1,7 @@
 ---
 author: "Benji Peng, Ph.D"
-title: "[In Depth] Serotonin and Friends"
-description: "Explore the intricate roles and mechanisms of serotonin and its modulation by other chemicals in brain function and perception."
+title: "[In-depth] Serotonin and Friends"
+description: "Explore the intricate roles and mechanisms of serotonin and its modulation by other chemicals in brain function and perception"
 tags: ["psychology", "pathways", "neurotransmitter"]
 date: 2024-05-09
 thumbnail: "featured.jpg"

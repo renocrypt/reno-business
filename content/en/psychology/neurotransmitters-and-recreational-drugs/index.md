@@ -1,7 +1,7 @@
 ---
 author: "Benji Peng, Ph.D"
 title: "Your Molecules and Your Mind: Impact of Neurotransmitters and Chemical Usage"
-description: ""
+description: "How neurotransmitters shape mental health and the effects of drugs on these vital brain chemicals"
 tags: ["psychology", "pathways", "neurotransmitter"]
 date: 2024-05-07
 thumbnail: "featured.jpg"
@@ -138,6 +138,85 @@ Vitamin C is essential in the conversion process of dopamine to norepinephrine, 
 
 **Prescription Drugs and Their Mechanisms:**
 
-- **Antidepressants**: Drugs like SNRIs (serotonin-norepinephrine reuptake inhibitors) such as venlafaxine and duloxetine work by blocking the reuptake of norepinephrine and serotonin, increasing their availability and activity in the brain. This is helpful in alleviating symptoms of depression and certain anxiety disorders.
-- **Beta-blockers**: Used primarily in treating hypertension, beta-blockers like propranolol work by blocking norepinephrine’s action on beta-adrenergic receptors, thereby reducing heart rate and blood pressure.
-- **Alpha-blockers**: Drugs such as prazosin work by blocking the action of norepinephrine at alpha receptors, primarily used to treat high blood pressure and symptoms of PTSD.
+- **Antidepressants**: Drugs like `SNRIs` (serotonin-norepinephrine reuptake inhibitors) such as `venlafaxine` and `duloxetine` work by blocking the reuptake of norepinephrine and serotonin, increasing their availability and activity in the brain. This is helpful in alleviating symptoms of depression and certain anxiety disorders.
+- **Beta-blockers**: Used primarily in treating hypertension, beta-blockers like `propranolol` work by blocking norepinephrine’s action on beta-adrenergic receptors, thereby reducing heart rate and blood pressure.
+- **Alpha-blockers**: Drugs such as `prazosin` work by blocking the action of norepinephrine at alpha receptors, primarily used to treat high blood pressure and symptoms of PTSD.
+
+## Gamma-Aminobutyric Acid (GABA) & Glutamate
+
+GABA is the primary `inhibitory` neurotransmitter, while Glutamate is the primary `excitatory` neurotransmitter.
+
+- Glutamate: Structurally, it is a simple amino acid. It is synthesized from `alpha-ketoglutarate`, a key intermediate in the `Krebs cycle` (citric acid cycle, TCA cycle, tricarboxylic acid cycle).
+  - Through transamination reactions facilitated by enzymes like aspartate aminotransferase. Glutamate can also convert to GABA, linking the metabolic pathways of these neurotransmitters.
+- GABA: Directly synthesized from Glutamate by the enzyme glutamate decarboxylase, which requires pyridoxal phosphate (vitamin B6) as a cofactor.
+
+![GABA-Glutamate-pathway](GABA-Glutamate-pathway.jpg)
+[Image Source](https://www.mdpi.com/1422-0067/24/5/4584)
+
+### Pathways
+
+**Pathways and Mechanisms**
+
+- **Glutamate** acts by binding to two main types of receptors: ionotropic (including NMDA, AMPA, and kainate receptors) and metabotropic glutamate receptors. These receptors facilitate the rapid transmission of excitatory signals across neurons, promoting calcium and sodium influx that leads to neuronal activation and synaptic plasticity.
+- **GABA** interacts with $ \mathsf{\small{GABA\_{A} }}$ and $ \mathsf{\small{GABA\_{B} }}$ receptors. $ \mathsf{\small{GABA\_{A} }}$ receptors are ligand-gated ion channels that, when activated by GABA, allow chloride ions to flow into the neuron, making it less likely to fire. $ \mathsf{\small{GABA\_{B} }}$ receptors are G-protein coupled receptors that activate potassium channels and inhibit calcium channels, further promoting inhibition.
+
+![GABA-Glutamate-neuron](GABA-Glutamate-neuron.jpg)
+[Image Source](https://www.mdpi.com/1422-0067/24/5/4584)
+
+**Removal and Recycling**
+
+- **Glutamate** is taken up from the synaptic cleft by excitatory amino acid transporters on neurons and glial cells. Once inside cells, it can be converted back to glutamine by glutamine synthetase in glial cells and shuttled back to neurons.
+- **GABA** is removed from the synapse by GABA transporters. Inside cells, GABA can be broken down by GABA transaminase into succinic semialdehyde, which enters the citric acid cycle.
+
+> **Both** neurotransmitters are significantly influenced by `vitamin B6`, which is essential for the synthesis of GABA from Glutamate and for various enzymes in the metabolism of these neurotransmitters.
+
+### Prescription Drugs
+
+**Glutamate-Related**: Drugs such as Memantine and Ketamine target NMDA receptors to modulate the excitotoxic effects of glutamate in conditions like Alzheimer's and severe depression. Topiramate and Lamotrigine, used in epilepsy, affect both the release and the receptor activity of glutamate.
+
+**GABA-Related**: Benzodiazepines enhance GABA's effect by increasing $ \mathsf{\small{GABA\_{A} }}$ receptor responsiveness, leading to increased inhibitory effects. This mechanism is used in the treatment of disorders like anxiety, epilepsy, and insomnia. Drugs like Vigabatrin increase GABA levels by inhibiting GABA transaminase, which breaks down GABA.
+
+## Acetylcholine
+
+Acetylcholine (ACh) is _vital_ in **central** and **peripheral** nervous systems (acetyl group linked to a choline molecule).
+
+![ACh](ACh.jpg)
+
+**Synthesis of Acetylcholine**: ACh is synthesized in nerve terminals from choline and acetyl-CoA. The enzyme choline acetyltransferase catalyzes this reaction, where choline is acetylated by acetyl-CoA, resulting in the production of ACh and coenzyme A. The choline required for this synthesis is partly obtained from the diet, particularly from foods rich in phosphatidylcholine, such as eggs, poultry, fish, and nuts.
+
+![ach-synth](ach-synth.jpeg)
+
+[Image Source](https://www.pharmaguideline.com/2022/03/biosynthesis-and-catabolism-of-acetylcholine.html)
+
+**Relationship with Naturally Occurring Compounds:**
+
+- **Vitamins and Amino Acids**: **Vitamin B5** (_pantothenic acid_) is a component of coenzyme A and is essential for the synthesis of acetyl-CoA, thereby indirectly supporting the synthesis of ACh. Adequate levels of vitamin B1 (thiamine) are also necessary as it is involved in carbohydrate metabolism, providing the acetyl groups necessary for acetyl-CoA formation.
+- **Fatty Acids**: Omega-3 fatty acids have been found to _increase_ acetylcholine levels by altering the composition of neuronal membranes and possibly affecting the function of acetylcholine receptors.
+
+**Prescription Drugs Related to Acetylcholine**
+
+1. **Cholinesterase Inhibitors**: Drugs like Donepezil, Rivastigmine, and Galantamine are used to treat Alzheimer’s disease by inhibiting acetylcholinesterase. This inhibition increases ACh levels in the brain, thereby enhancing cholinergic transmission to improve memory and cognitive functions in Alzheimer’s patients.
+2. **Nicotinic Agonists**: Drugs like Varenicline, used for smoking cessation, act as partial agonists at nicotinic acetylcholine receptors. They mimic the action of acetylcholine at these receptors, reducing craving and withdrawal symptoms.
+3. **Muscarinic Antagonists**: Drugs such as Atropine and Scopolamine block muscarinic acetylcholine receptors. They are used to increase heart rate, reduce bodily secretions during surgery, and as antidotes for certain poisonings.
+
+## Opioid Peptides
+
+Opioid peptides are a group of naturally occurring molecules in the brain and peripheral tissues.They are primarily known for their role in pain modulation, reward, and addictive behaviors.
+
+**This part is rather complicated, will be in a separate in-depth article.**
+
+**Pathways and Mechanisms**
+
+- **Receptor Interaction**: Opioid peptides exert their effects by binding to opioid receptors, which are G-protein coupled receptors (`GPCRs`). There are three main types of opioid receptors: mu (μ), delta (δ), and kappa (κ), each with different affinities for various opioid peptides and distinct physiological effects.
+  - Binding of opioid peptides to these receptors leads to inhibition of adenylate cyclase, decreased formation of cAMP, closure of voltage-gated calcium channels, and opening of potassium channels.
+  - This results in reduced neuronal excitability and neurotransmitter release, primarily affecting pain signals and emotional responses.
+- Degradation: Opioid peptides are rapidly broken down by enzymes such as aminopeptidases and endopeptidases, which limit their duration of action in the nervous system.
+
+**Prescription Drugs Related to Opioid Peptides**
+
+- **Agonists**: Drugs like morphine, heroin, and other synthetic opioids mimic the action of natural opioid peptides by binding to and activating opioid receptors. These are used for pain relief but are also associated with high addiction potential.
+- **Antagonists**: Naloxone and naltrexone are opioid receptor antagonists that block the effects of both synthetic opioids and natural opioid peptides. They are used in the treatment of opioid overdose and to aid in recovery from opioid addiction by preventing relapse.
+
+![relationship-peptide-morphine](relationship-peptide-morphine.jpg)
+
+> Structural correlation between met-enkephalin, an opioid peptide (left), and morphine, an opiate drug (right)
